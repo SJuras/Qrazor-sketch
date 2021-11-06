@@ -24,6 +24,12 @@ a {
   margin: 0 auto;
 }
 
+.container-2 {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+}
+
 .double-container {
   width: 100%;
   display: flex;
@@ -48,6 +54,47 @@ header {
   align-items: center;
   padding: 15px 0px;
 }
+
+.logo {
+  font-family: 'Moonhouse', sans-serif;
+  font-size: 36px;
+  color: #000;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  position: relative;
+  margin-left: 16px;
+  transition: 0.5s;
+}
+
+nav ul li::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0px;
+  width: 0%;
+  height: 3px;
+  background-color: red;
+  transition: 0.5s;
+}
+
+nav ul li a {
+  color: #000;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+nav ul li:hover::after {
+  width: 100%;
+}
+
+nav ul li:hover a {
+  color: red;
+}
 /* header END */
 
 /* hero section */
@@ -55,8 +102,22 @@ header {
   width: 100%;
   height: 80vh;
   position: relative;
+}
 
-  background-color: red;
+.hero-inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+}
+
+.hero-box {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* hero section END */
 
