@@ -1,0 +1,68 @@
+@font-face {
+   font-family: 'Moonhouse' ;
+   src: url('../fonts/moonhouse.ttf') format('truetype');
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* general */
+.container {
+	max-width: 1300px;
+  margin: 0 auto;
+}
+
+.double-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* general END */
+
+/* header */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+
+.navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+}
+/* header END */
+
+/* hero section */
+.hero-section {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+
+  background-color: red;
+}
+/* hero section END */
+
+/* about */
+.about-section {
+  width: 100%;
+  height: 100vh;
+}
+/* about END */
