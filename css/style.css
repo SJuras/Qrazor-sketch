@@ -53,6 +53,10 @@ a {
   align-items: center;
 }
 
+.half {
+  width: 50%;
+}
+
 .section-title {
   width: 100%;
   text-align: center;
