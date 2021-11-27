@@ -52,6 +52,39 @@ img {
   position: relative;
 }
 
+.page-hero {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  background-color: #ebeef2
+}
+
+.page-hero-inner {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-hero-inner h1 {
+  font-size: 42px;
+  text-align: center;
+}
+
+.page-content-inner {
+  padding: 120px 0px 60px;
+}
+
+.page-content-inner p {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.btn-center-container {
+  padding: 42px 0px 30px;
+}
+
 .double-container {
   width: 100%;
   display: flex;
@@ -75,10 +108,16 @@ img {
 
 .half p {
   font-size: 18px;
+  margin-bottom: 6px;
 }
 
 .half-img-container {
   max-width: 250px;
+  margin: 0 auto;
+}
+
+.half-img-container-2 {
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -226,6 +265,7 @@ nav ul li:hover a {
   width: 400px;
   height: 400px;
   margin-bottom: 36px;
+  padding: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -237,6 +277,16 @@ nav ul li:hover a {
 .idea-box:hover {
   transform: scale(1.1);
   box-shadow: 0px 6px 12px rgba(0,0,0,0.5);
+}
+
+.idea-box h4 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.idea-box p {
+  text-align: center;
+  margin-bottom: 12px;
 }
 /* ideas END */
 
@@ -340,6 +390,18 @@ footer {
     margin-left: 0px;
     margin-right: 24px;
     padding-left: 0px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .double-container {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .half {
+    width: 100%;
+    margin-bottom: 30px;
   }
 }
 
