@@ -44,7 +44,7 @@ img {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 0 10px;
+  /* margin: 0 10px; */
   padding: 12px 0;
   background-color: #ff4000;
   color: #fff;
@@ -343,6 +343,7 @@ nav ul li:hover a {
 .idea-box h4 {
   font-size: 24px;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .idea-box p {
@@ -469,6 +470,12 @@ footer {
   .half {
     width: 100%;
     margin-bottom: 30px;
+  }
+
+  .idea-box {
+    width: 100%;
+    height: initial;
+    min-height: 400px;
   }
 }
 
