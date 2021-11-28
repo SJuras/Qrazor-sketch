@@ -55,8 +55,8 @@ img {
 }
 
 .btn:hover {
-  background-color: #9361eb;
-  border-color: #9361eb;
+  background-color: #4f78de;
+  border-color: #4f78de;
 }
 
 .container {
@@ -182,6 +182,17 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 0px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  width: 30px;
+  margin-right: 6px;
 }
 
 .logo {
@@ -374,7 +385,7 @@ footer {
 }
 
 .footer-box-smaller p.footer-description {
-  color: #9361eb;
+  color: #ff4000;
   margin-bottom: 18px;
 }
 
@@ -393,7 +404,7 @@ footer {
 }
 
 .footer-bigger-box h4 {
-  color: #4f78de;
+  color: #ff4000;
   margin-bottom: 10px;
   font-size: 20px;
 }
@@ -468,5 +479,9 @@ footer {
 
   .footer-bigger-box {
     margin-bottom: 24px;
+  }
+
+  .footer-row-2 {
+    flex-direction: column;
   }
 }
