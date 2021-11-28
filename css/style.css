@@ -9,6 +9,8 @@ colors:
 blue: #4f78de;
 purple: #9361eb;
 
+orange: #ff4000;
+
 dark(black): #19222d;
 middle: #1f2937;
 light: #2a384b;
@@ -44,9 +46,9 @@ img {
   display: inline-block;
   margin: 0 10px;
   padding: 12px 0;
-  background-color: #4f78de;
+  background-color: #ff4000;
   color: #fff;
-  border: 0.5px solid #4f78de;
+  border: 0.5px solid #ff4000;
   position: relative;
   z-index: 1;
   transition: 0.5s;
@@ -93,7 +95,7 @@ img {
 .page-hero-inner h1 {
   font-size: 42px;
   text-align: center;
-  color: #4f78de;
+  color: #ff4000;
   text-transform: uppercase;
 }
 
@@ -159,7 +161,7 @@ img {
 
 .section-title h4 {
   font-size: 36px;
-  color: #4f78de;
+  color: #ff4000;
   text-transform: uppercase;
 }
 /* general END */
@@ -205,7 +207,7 @@ nav ul li::after {
   left: 0px;
   width: 0%;
   height: 3px;
-  background-color: #9361eb;
+  background-color: #ff4000;
   transition: 0.5s;
 }
 
@@ -220,7 +222,7 @@ nav ul li:hover::after {
 }
 
 nav ul li:hover a {
-  color: #9361eb;
+  color: #ff4000;
 }
 /* header END */
 
@@ -247,7 +249,7 @@ nav ul li:hover a {
   width: 100%;
   height: 60vh;
   background-color: #fff;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   display: flex;
   align-items: center;
   position: absolute;
@@ -275,10 +277,21 @@ nav ul li:hover a {
   width: 400px;
   background-color: red;
 }
+
+.scroll-down-container {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
 /* hero section END */
 
 /* about */
-
+.about-section {
+  padding: 36px 0px 36px;
+}
 /* about END */
 
 /* ideas */
@@ -312,6 +325,10 @@ nav ul li:hover a {
   box-shadow: 0px 6px 12px rgba(0,0,0,0.5);
 }
 
+.idea-box-img {
+  width: 200px;
+}
+
 .idea-box h4 {
   font-size: 24px;
   margin-bottom: 16px;
@@ -322,6 +339,12 @@ nav ul li:hover a {
   margin-bottom: 12px;
 }
 /* ideas END */
+
+/* contact section */
+.contact-section {
+  padding: 36px 0px 36px;
+}
+/* contact section END */
 
 /* footer */
 footer {
@@ -385,7 +408,7 @@ footer {
 }
 
 .footer-bigger-box ul li:hover a {
-  color: #9361eb;
+  color: #ff4000;
 }
 
 .footer-row-2 {
