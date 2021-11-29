@@ -103,6 +103,10 @@ img {
   padding: 120px 0px 60px;
 }
 
+.page-content-inner h2 {
+  margin-bottom: 6px;
+}
+
 .page-content-inner p {
   font-size: 20px;
   margin-bottom: 24px;
